@@ -7,9 +7,14 @@ import RootLayout from "./shared/Layouts/RootLayout";
 import {
   AdminLayout,
   AdminDashboard,
-  AdminData,
-  AdminCreate,
+  DataAccounts,
+  DataStudents,
   AdminActivity,
+  ActivitySections,
+  ActivityAccount,
+  ActivityImport,
+  CreateLayout,
+  DataLayout,
 } from "./pages/admin/adminGlobal";
 
 //teacher
@@ -36,8 +41,15 @@ function App() {
         {/* admin */}
         <Route path="admin" element={<AdminLayout />}>
           <Route path="adminDashboard" element={<AdminDashboard />} />
-          <Route path="adminData" element={<AdminData />} />
-          <Route path="adminCreate" element={<AdminCreate />} />
+          <Route path="adminData" element={<DataLayout />}>
+            <Route path="accounts" element={<DataAccounts />} />
+            <Route path="students" element={<DataStudents />} />
+          </Route>
+          <Route path="adminCreate" element={<CreateLayout />}>
+            <Route path="sections" element={<ActivitySections />} />
+            <Route path="account" element={<ActivityAccount />} />
+            <Route path="import" element={<ActivityImport />} />
+          </Route>
           <Route path="adminActivity" element={<AdminActivity />} />
         </Route>
 

@@ -1,0 +1,106 @@
+{
+  "teachers": {
+    "title": "Teacher Accounts Created",
+    "teachers": [
+      {
+        "id": 1,
+        "name": "Joshua A. Caalim",
+        "id_number": "100",
+        "email_address": "JoshuaCaalim@gmail.com"
+      },
+      {
+        "id": 2,
+        "name": "Joel Trillo",
+        "id_number": "102",
+        "email_address": "JoelTrillo@gmail.com"
+      },
+      {
+        "id": 3,
+        "name": "Cristopher Abalorio",
+        "id_number": "103",
+        "email_address": "CristopherAbalorio@gmail.com"
+      }
+    ]
+  },
+  "sections": {
+    "title": "Sections Created",
+    "sections": [
+      {
+        "id": 1,
+        "name": "Diamond",
+        "adviser": "Joshua A. Caalim",
+        "students": []
+      },
+      {
+        "id": 2,
+        "name": "Emerald",
+        "adviser": "Joel Trillo",
+        "students": []
+      },
+      {
+        "id": 3,
+        "name": "Ruby",
+        "adviser": "Cristopher Abalorio",
+        "students": []
+      }
+    ]
+  },
+  "students": {
+    "title": "Students Accounts Created",
+    "students": [
+      {
+        "id": 1,
+        "id_number": "190",
+        "name": "Mark Laurence Mejo",
+        "email_address": "mlmejo@aclcbutuan.edu.ph",
+        "grade_level": "Grade 1"
+      },
+      {
+        "id": 2,
+        "id_number": "191",
+        "name": "Junzel Dela Torre",
+        "email_address": "jdtorre@aclcbutuan.edu.ph",
+        "grade_level": "Grade 2"
+      },
+      {
+        "id": 3,
+        "id_number": "192",
+        "name": "Jhoniel Villacura",
+        "email_address": "jpvillacura@aclcbutuan.edu.ph",
+        "grade_level": "Grade 3"
+      }
+    ]
+  },
+  "inactiveAccounts": {
+    "title": "Inactve Accounts",
+    "inactiveAccounts": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "id_number": "200"
+      },
+      {
+        "id": 2,
+        "name": "Mary Doe",
+        "id_number": "1005"
+      }
+    ]
+  },
+  "gradeLevels": {
+    "title": "Grade Levels Created",
+    "gradeLevels": [
+      {
+        "id": 1,
+        "Grade-1": 3
+      },
+      {
+        "id": 2,
+        "Grade-2": 2
+      },
+      {
+        "id": 3,
+        "Grade-3": 6
+      }
+    ]
+  }
+}

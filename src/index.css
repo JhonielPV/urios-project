@@ -24,12 +24,26 @@
   .sidebar-items {
     @apply flex items-center p-4 mt-2 cursor-pointer text-white hover:bg-slate-300 hover:text-black  transition-all duration-75;
   }
-
+  /* admin */
   .admin {
     @apply flex items-center text-white p-4 mt-2 mb-10;
   }
-
+  /* sidebar */
   .sidebar-items.active {
     @apply font-bold bg-slate-700 text-white;
+  }
+  /* card */
+  .card {
+    @apply block max-w-sm p-6 bg-slate-700 text-white  border-0 border-gray-100 rounded-md shadow hover:text-black  hover:bg-slate-300;
+  }
+  .card-title {
+    @apply mb-2 text-2xl font-semibold tracking-tight pb-5;
+  }
+  .card-body {
+    @apply font-normal;
+  }
+
+  .data-links a.active {
+    @apply border-b pb-2 font-semibold;
   }
 }
